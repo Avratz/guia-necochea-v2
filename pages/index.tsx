@@ -1,16 +1,13 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+import DefaultLayout from '~/global/layout/Default'
+import Hero from '~/home/components/Hero'
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <Head>
-        <title>Guía Necochea</title>
-        <meta name="description" content="Encontra lo que estas buscando en la guía comercial de la ciudad" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    </div>
-  )
+	return (
+		<DefaultLayout>
+			<Hero />
+		</DefaultLayout>
+	)
 }
 
 export default Home
