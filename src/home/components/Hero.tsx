@@ -13,7 +13,7 @@ function Hero() {
 			<Heading size='text-6xl' className='text-center font-bold text-white'>
 				Encontrá lo que buscás.
 			</Heading>
-			<Input placeholder='Buscar' className='m-8' rounded />
+			<Input placeholder='Buscar' className='my-8' rounded />
 		</section>
 	)
 }
